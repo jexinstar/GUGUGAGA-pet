@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "runtime_mapping": {
+    "pointer_enter_state": "jumping",
+    "atlas_row": 4,
+    "source_evidence": "Codex avatar button sets transient hover state to jumping."
+  },
+  "layout": {
+    "content_scale": 0.8,
+    "shared_body_bottom_y": 207,
+    "idle_body_bbox": [39, 49, 152, 207],
+    "hover_body_bboxes": [
+      [39, 48, 152, 207],
+      [39, 48, 153, 207],
+      [39, 48, 152, 207],
+      [39, 48, 152, 207],
+      [39, 48, 152, 207]
+    ]
+  },
+  "hover_row": {
+    "frame_count": 5,
+    "vertical_motion": "none",
+    "body_scale_change": "none",
+    "bubble": {
+      "text": "咕嘎",
+      "font": "Microsoft YaHei Bold 22px",
+      "shape": "white long rounded rectangle with dark 2px outline and short tail",
+      "location": "above hood",
+      "face_obstruction": false
+    }
+  },
+  "direction_rows": {
+    "bubble_present": false,
+    "top_0_to_47_nontransparent_pixels": 0,
+    "cardinals": "000 up, 090 right, 180 down, 270 left: pass"
+  },
+  "validation": {
+    "width": 1536,
+    "height": 2288,
+    "cell_size": [192, 208],
+    "sprite_version_number": 2,
+    "rgba": true,
+    "transparent_rgb_residue_pixels": 0,
+    "structural_errors": []
+  },
+  "independent_visual_qa": "pass"
+}
